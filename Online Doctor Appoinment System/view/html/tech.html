@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/view/css/tech.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Online Doctor Appoinment</title>
+</head>
+
+<body>
+    <section id="banner">
+        <div class="banner__text">
+            <h1>Health Care Studio</h1>
+            <p>Improving Lives Together..!</p>
+            <div class="banner__btn">
+                <a href="/view/html/Book.html"><span></span> Book Now</a>
+
+            </div>
+        </div>
+    </section>
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="/view/html/Admin.html">Admin</a></li>
+                <li><a href="/view/html/Registration.html">SignUp</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="/view/html/Images/menu.png" alt="" id="menu">
+    </div>
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sidenav = document.getElementById("sidenav")
+        var menu = document.getElementById("menu")
+        sidenav.style.right = "-250px"
+        menuBtn.onclick = function() {
+            if (sidenav.style.right == "-250px") {
+                sidenav.style.right = "0";
+                menu.src = "Images/close.png";
+            } else {
+                sidenav.style.right = "-250px";
+                menu.src = "Images/menu.png";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/view/css/Book.css">
+    <link rel="stylesheet" href="/View/CSS/all.min.css">
+    <link rel="stylesheet" href="/View/CSS/fontawesome.min.css">
+
+
+    <title>Reservation</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>BOOK APPOINTMENT</header>
+        <div class="form__outer">
+            <form name="Form">
+                <div class="page ">
+                    <div class="field">
+                        <div>
+                            <div class="label">First Name</div>
+                            <input type="text" name="firname" class="firname" id="firname">
+                            <div class="error" id="firnameErr"></div>
+                        </div>
+                        <div>
+                            <div class="label">Last Name</div>
+                            <input type="text" name="lasname" class="lasname" id="lasname">
+                            <div class="error" id="lasnameErr"></div>
+                        </div>
+                        <div>
+                            <div class="label">Email Address</div>
+                            <input type="text" name="email" id="email">
+                            <div class="error" id="emailErr"></div>
+                        </div>
+                        <div>
+                            <div class="label">Phone Number</div>
+                            <input type="number" name="moblie" id="moblie">
+                            <div class="error" id="moblieErr"></div>
+                        </div>
+                        <div>
+                            <div class="label">Gender</div>
+                            <select name="gender" id="gender">
+                            <option value="">Select</option>
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                            <option value="">Other</option>
+                        </select>
+                            <div class="error" id="genderErr"></div>
+                        </div>
+                        <div>
+                            <div class="label">Date</div>
+                            <input type="date">
+                        </div>
+                        <div>
+                            <div class="label">Time</div>
+                            <input type="time">
+                        </div>
+                        <div class="field nextBtn">
+                            <button>Book</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+    <script src="/view/js/Book.js"></script>
+</body>
+
+</html>

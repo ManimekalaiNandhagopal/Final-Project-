@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* background: url(/view/html/Images/back.jfif);
+    background-repeat: no-repeat;
+   
+    background-size:cover;
+    position: fixed;
+}*/
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(/view/html/Images/docimg1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container {
+    width: 600px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 50px 35px 10px 35px;
+    height: 100vh;
+}
+
+.container header {
+    font-size: 35px;
+    font-weight: 600;
+    position: fixed;
+    padding-left: 100px;
+    margin-top: 10ppx;
+    color: white;
+}
+
+.container .form__outer {
+    margin-top: 14px;
+    width: 100%;
+    padding-left: 100px;
+}
+
+.form__outer form {
+    display: flex;
+    width: 300%;
+    position: fixed;
+}
+
+.form__outer form .page {
+    width: 25%;
+}
+
+.form__outer form .page .field {
+    height: 45px;
+    width: 330px;
+    margin: 45px 0;
+}
+
+.form__outer form .page .field .label {
+    top: -30px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.form__outer form .page .field input {
+    height: 90%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 15px;
+    display: flex;
+}
+
+form .page .field select {
+    width: 105%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.field nextBtn {
+    margin-top: -20px;
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.form__outer form .page .field button:hover {
+    background: aqua;
+}
+
+button {
+    padding: 10px 90px;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+}
+
+.input-1 {
+    background-image: url("/view/view/html/Images/check.png");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    border: 1px solid #01cc40;
+}
+
+.input-2 {
+    background-image: url("/view/view/html/Images/cancel.png");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    border: 1px solid red;
+}
+
+.input-3 {
+    border: 1px solid #01cc40!important;
+}
+
+#gender {
+    outline: none!important;
+}
+
+.input-4 {
+    border: 1px solid red;
+}

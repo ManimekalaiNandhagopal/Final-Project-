@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/view/css/Admin.css">
+    <script src="/view/js/Admin.js"></script>
+    <title>Login Form</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="img">
+            <img src="/view/html/Images/Mobile_login.png" alt="">
+        </div>
+        <div class="login__container">
+            <form action="Admin.html">
+                <img class="profile__pic" src="/view/html/Images/profile pic.svg" alt="">
+                <h2>Welcome</h2>
+                <div class="input__div one">
+                    <div class="i">
+                        <i class="fa fa-user" id="focus"></i>
+                    </div>
+                    <div id="focus1">
+                        <h5>Username</h5>
+                        <input class="input" type="text" id="Username">
+                    </div>
+                </div>
+                <div class="input__div two">
+                    <div class="i">
+                        <i class="fa fa-lock"></i>
+                    </div>
+                    <div id="focus1">
+                        <h5>Password</h5>
+                        <input class="input" type="password" id="Password">
+                    </div>
+                </div>
+                <a href="/view/html/Registration.html">Sign up</a>
+                <input type="submit" class="login__btn" value="Login" onsubmit="checkInputs()">
+
+            </form>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
